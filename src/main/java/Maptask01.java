@@ -29,16 +29,16 @@ Cevap Elephant olmalı.
         hm.put(5,"dog");
 
         Scanner sc = new Scanner(System.in);
-        System.out.println("sayı giriniz");
-        int sayı = sc.nextInt();
-        System.out.println("map1(hm,sayı) = " + map1(hm, sayı));
+        System.out.println("enter number");
+        int number = sc.nextInt();
+        System.out.println("map1(hm,number) = " + map1(hm, number));
 
 
     }// *** main sonu ***
 
-    private static String map1(HashMap<Integer,String> hm, int sayı ) {
+    private static String map1(HashMap<Integer,String> hm, int number ) {
 
 
-        return hm.get(sayı);
+        return hm.get(number);
     }
 }
